@@ -56,3 +56,37 @@
   text-decoration: none;
   border-style: none;
 }
+
+
+/* Navbar.css */
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  transition: background-color 0.5s ease;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #ddd;
+}
+
