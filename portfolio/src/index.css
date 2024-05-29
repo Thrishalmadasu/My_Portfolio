@@ -90,3 +90,11 @@ nav ul li a:hover {
   color: #ddd;
 }
 
+/* Typed */
+
+.TypeEffect{
+  padding: 25px 0px;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 0.6px;
+}
