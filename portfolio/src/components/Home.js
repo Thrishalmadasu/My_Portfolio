@@ -15,13 +15,13 @@ const Home = () => {
           <h1>I'M <b>Thrishal Madasu</b></h1>
           <Typed/>   
         </div>
-
-        {/* <Lottie 
+{/* 
+        <Lottie 
           className="illustration" 
           animationData={SpaceBoy} 
           loop={true} 
-        /> */}
-        
+        />  
+         */}
       </div>
 
       <div className='AboutPage'>

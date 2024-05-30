@@ -235,3 +235,48 @@ nav ul li a:hover::after {
   text-decoration: none;
   border-style: none;
 }
+
+
+.NavbarLinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7%;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.NavbarLinks li{
+  padding: 2px 20px;
+  list-style-type: none;
+}
+
+.NavbarLinks a{
+  color: #c2c1c2;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 95%;
+  padding: 2px 7px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.NavbarLinks a:hover{
+  color: #ffffff;
+}
+.NavbarLinks a::after{
+  background-color: #ffffff;
+  content: "";
+  position: absolute;
+  height: 3px;
+  left: 5px;
+  bottom: 0;
+  width: 0px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.NavbarLinks a:hover:after{
+  width: 95%;
+}

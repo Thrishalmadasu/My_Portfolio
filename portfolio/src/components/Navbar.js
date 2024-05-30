@@ -1,22 +1,22 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import './NavBar.css';
-const Navbar = () => {
+import { Link } from 'react-router-dom';
+import {AiOutlineHome} from "react-icons/ai";
+import {BsPerson, BsCodeSlash} from "react-icons/bs";
+import {CgFileDocument} from "react-icons/cg";
+
+
+const Nav = () => {
+
   return (
     <nav>
-      <ul>
-        <li>
-         <a>Home</a> 
-        </li>
-        <li>
-         <a>About</a> 
-        </li>
-        <li>
-         <a>Projects</a> 
-        </li>
-      </ul>
-    </nav>
-  );
-};
+        <ul className='NavbarLinks'>
+            <li><Link to="/"><AiOutlineHome/> Home</Link></li>
+            <li><Link to="/About"><BsPerson/> About</Link></li>
+            <li><Link to="/Project"><BsCodeSlash/> Project</Link></li>
+            <li><Link to="/Resume"><CgFileDocument/> Resume</Link></li>
+        </ul>
+    </nav> 
+  )
+}
 
-export default Navbar;
+export default Nav
