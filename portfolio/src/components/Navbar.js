@@ -13,7 +13,7 @@ const Nav = () => {
             <li><Link to="/"><AiOutlineHome/> Home</Link></li>
             <li><Link to="/About"><BsPerson/> About</Link></li>
             <li><Link to="/Projects"><BsCodeSlash/> Project</Link></li>
-            <li><Link to="/Resume"><CgFileDocument/> Resume</Link></li>
+            {/* <li><Link to="/Resume"><CgFileDocument/> Resume</Link></li> */}
         </ul>
     </nav> 
   )
