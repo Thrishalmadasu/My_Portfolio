@@ -124,6 +124,46 @@ nav ul li a:hover::after {
   height: 400px;
 }
 
+
+@media(max-width:900px){
+  .HomePage{
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    padding: 25px;
+  }
+  .HomeText{
+    text-align: left;
+    display: inline-block;
+  }
+  .illustration{
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width: 500px) {
+  .HomePage{
+    min-height: 70vh;
+  }
+  .NavbarLinks{
+    inset: 0 0 0 30%;
+  }
+  .HomeText h1{
+    font-weight: 500;
+    font-size: 28px;
+  }  
+  .TypeEffect{
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .illustration{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+}
+
 /* ABOUT */
 
 .AboutPage{
@@ -155,6 +195,30 @@ nav ul li a:hover::after {
 
 .Avatar{
   width: 280px;
+}
+
+@media(max-width:900px){
+  .AboutPage{
+    display: block;
+    text-align: center;
+    padding: 30px;    
+  }
+  .AboutText{
+    text-align: left;
+    display: inline-block;
+    width: 95%;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    margin-bottom: 80px;
+  }
+  .AboutTextHeading{
+    font-size: 26px;
+  }
+
+  .Avatar{
+    width: 200px;
+    margin-bottom: 75px;
+  }
 }
 
 /* Skills section */
@@ -291,6 +355,41 @@ nav ul li a:hover::after {
 .NavbarLinks a:hover:after{
   width: 95%;
 }
+
+
+@media (max-width: 600px) {
+  nav{
+    padding: 10;
+    padding-left: 10px;
+  }
+  nav ul {
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    display: block;
+    width: 50%;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: static;
+  }
+
+  .NavbarLinks a{
+    padding: 0px 0px;
+    
+  }
+}
+
 
 
 /* FOOTER */
